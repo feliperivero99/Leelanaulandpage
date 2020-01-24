@@ -29,7 +29,7 @@ div#quad figure figcaption {
   bottom: 0; width: 100%;
 	transition: 1s 1s opacity; 
 }
-.expanded { transform: scale(2); z-index: 5;  }
+.expanded { transform: scale(1.5); z-index: 5;  }
 div#quad figure.expanded figcaption { opacity: 1; }
 div.full figure:not(.expanded) { pointer-events: none; }
 
