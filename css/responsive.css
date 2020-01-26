@@ -1852,3 +1852,12 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.retina-logo { display: inline-block; }
 }
 
+.siscont{
+	max-height:600px !important;
+}
+
+@media only screen and (max-width: 1400px) {
+  .siscont{
+	max-height:450px !important;
+}
+}
