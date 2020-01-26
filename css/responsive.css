@@ -1861,3 +1861,11 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	max-height:450px !important;
 }
 }
+
+.roundimg {
+    background-color: transparent;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 5px solid #EAE5CC;
+}
