@@ -5,9 +5,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="author" content="Leelanau Landworks">
 	
-	<link rel="apple-touch-icon" sizes="180x180" href="images/tractor.JPG">
-	<link rel="icon" type="image/JPG" href="images/tractor.JPG" sizes="32x32">
-	<link rel="icon" type="image/JPG" href="images/tractor.JPG" sizes="16x16">
+	<link rel="apple-touch-icon" sizes="180x180" href="images\main\tractor.JPG">
+	<link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="32x32">
+	<link rel="icon" type="image/JPG" href="images\main\tractor.JPG" sizes="16x16">
 	<link rel="manifest" href="manifest.json">
 	<link rel="mask-icon" href="safari-pinned-tab.svg" color="#5bbad5">
 	<meta name="theme-color" content="#ffffff">
@@ -57,7 +57,7 @@
 						<div class="top-links">
 							<ul>
 								<li><a href="index.html">Home</a></li>
-								<li><a >Contact</a></li>
+								<li><a href="contact.html">Contact</a></li>
 								<li><a href="tel:231.392.5190" style="color:#cc0000;"><b>+1 231-392-5190</b></a></li>
 							</ul>
 						</div><!-- .top-links end -->
@@ -71,7 +71,7 @@
 						<div id="top-social">
 							<ul>
 								<li><a href="https://www.facebook.com/Leelanauland/" class="si-facebook" target="_blank"><span class="ts-icon"><i class="icon-facebook"></i></span><span class="ts-text">Facebook</span></a></li>
-								<li><a  class="si-linkedin" target="_blank"><span class="ts-icon"><i class="icon-linkedin2"></i></span><span class="ts-text">LinkedIn</span></a></li>
+								<li><a href="https://www.instagram.com/leelanau_landworks/" class="si-instagram" target="_blank"><span class="ts-icon"><i class="icon-instagram"></i></span><span class="ts-text">Instagram</span></a></li>
 								<li><a href="mailto:leelanauland@gmail.com" class="si-email3"><span class="ts-icon"><i class="icon-email3"></i></span><span class="ts-text">leelanauland@gmail.com</span></a></li>
 							</ul>
 						</div><!-- #top-social end -->
@@ -83,6 +83,7 @@
 			</div><!-- #top-bar end -->
 
 
+
 			<div class="container clearfix"> &nbsp; </div>
 
 
@@ -92,13 +93,12 @@
 
 		<div class="container clearfix">
 
-                    <!-- Logo
+                        <!-- Logo
                     	============================================= -->
-                    	<div id="logo">
-                    		<a href="index.html" class="standard-logo" data-dark-logo="/images/logo.jpeg"><img src="images\logo.jpeg" alt="Leelanau Landworks"></a>
-                    		<a href="index.html" class="retina-logo" data-dark-logo="/images/logo.jpeg"><img src="images\logo.jpeg" alt="Leelanau Landworks"></a>
+                    		<div id="logo">
+                    		<a href="index.html" class="standard-logo" data-dark-logo="images\main\logo.jpeg"><img src="images\main\logo.jpeg" alt="Leelanau Landworks"></a>
+                    		<a href="index.html" class="retina-logo" data-dark-logo="images\main\logo.jpeg"><img src="images\main\logo.jpeg" alt="Leelanau Landworks"></a>
                     	</div><!-- #logo end -->
-
                     	<ul class="header-extras">
                     		<li>
                     			<h3 style="color:#cc0000;">Demolition & Excavation Company in Traverse City, Michigan</h3>
@@ -160,7 +160,7 @@
 
 			<div class="container clearfix">
 
-				<img class= "col_full nobottommargin" src="images/promo-forestry.jpg" alt="Leelanau Forestry Mulching">
+				<img class= "col_full nobottommargin" src="images\main\promo-forestry.jpg" alt="Leelanau Forestry Mulching">
 
 				<div class="col_full col_last nobottommargin  topmargin">
 
@@ -254,7 +254,7 @@
 							<h3 style="padding-left:0px;">At Leelanau Landworks we don't serve just our county! </h3>
 							<p style="padding-left:0px; padding-right:50px;">We provide quality excavation, grading, land clearing, forestry mulching, and Brush cutting services to Northern Michiga, While Also providing forestry mulching and brush control to the entire state</p>
 
-							<img src="images/logofooter.jpeg" alt="" class="footer-logo">
+							<img src="images\main\logofooter.jpeg" alt="" class="footer-logo">
 
 						</div><!-- / column -->
 
@@ -282,7 +282,7 @@
 									<i class="icon-facebook"></i>
 								</a>				
 
-								<a  target="https://www.instagram.com/leelanau_landworks/" class="social-icon si-rounded si-small si-colored si-linkedin">
+								<a href="https://www.instagram.com/leelanau_landworks/" target="_blank" class="social-icon si-rounded si-small si-colored si-linkedin">
 									<i class="icon-instagram"></i>
 									<i class="icon-instagram"></i>
 								</a>
@@ -364,7 +364,7 @@
 		<script>
 			function clickimag(imgen,text){
 				console.log(imgen);
-				document.getElementById('modalimg').src="images/"+imgen;
+				document.getElementById('modalimg').src="images/main/"+imgen;
 				var text2 = document.createTextNode(text);
 				document.getElementById('exampleModalLabel').textContent = text;
 				$('#exampleModal').modal("show");
