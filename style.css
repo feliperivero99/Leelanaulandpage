@@ -11961,6 +11961,7 @@ button.toast-close-button {
 #footer .footer-widgets-wrap {
 	position: relative;
 	padding: 50px 0;
+	padding-bottom:0px;
 }
 
 .footer-widgets-wrap .col_full,
