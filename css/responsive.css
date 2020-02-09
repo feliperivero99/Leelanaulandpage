@@ -1864,8 +1864,8 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 
 .roundimg {
     background-color: transparent;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     border-radius: 50%;
     border: 5px solid #EAE5CC;
 }
